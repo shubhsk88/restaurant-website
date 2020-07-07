@@ -1,6 +1,7 @@
 import home from './components/Home';
 import menuContainer from './components/Menu';
 import contact from './components/Contact';
+
 const header = document.createElement('header');
 const logo = document.createElement('div');
 const li = document.createElement('div');
@@ -26,15 +27,15 @@ logo.classList.add('logo');
 li.classList.add('li');
 main.appendChild(home);
 
-homeLink.addEventListener('click', function () {
+homeLink.addEventListener('click', () => {
   main.removeChild(main.lastChild);
   main.appendChild(home);
 });
-menu.addEventListener('click', function () {
+menu.addEventListener('click', () => {
   main.removeChild(main.lastChild);
   main.appendChild(menuContainer);
 });
-contactLink.addEventListener('click', function () {
+contactLink.addEventListener('click', () => {
   main.removeChild(main.lastChild);
   main.appendChild(contact);
 });
