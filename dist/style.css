@@ -39,6 +39,7 @@ a {
   text-decoration: none;
   color: white;
   padding: 2rem 1rem;
+  cursor: pointer;
 }
 a:hover {
   background: white;
@@ -108,6 +109,11 @@ a:hover {
   padding: 1rem;
 }
 .address {
-  padding: 1rem 0;
+  padding: 1rem;
   font-size: 2rem;
+}
+.container-one {
+  margin-left: 5rem;
+  padding: 1rem;
+  color: white;
 }

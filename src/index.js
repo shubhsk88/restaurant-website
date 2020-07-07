@@ -18,8 +18,9 @@ content.appendChild(header);
 header.appendChild(logo);
 header.appendChild(li);
 li.appendChild(homeLink);
-li.appendChild(contactLink);
+
 li.appendChild(menu);
+li.appendChild(contactLink);
 content.appendChild(main);
 logo.classList.add('logo');
 li.classList.add('li');
