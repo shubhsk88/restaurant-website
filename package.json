@@ -1,11 +1,20 @@
 {
-  "name": "Restaurant-website",
+  "name": "restaurant-website",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Shubham Singh <shubham88singh@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint \"src/**/*.{js}\" --fix"
+  },
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }
